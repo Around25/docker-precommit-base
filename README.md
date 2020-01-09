@@ -1,6 +1,6 @@
 # docker-precommit-base
 
-A docker image that allows you to run pre-commit checks for Python, Node or Go
+A docker image that allows you to run pre-commit checks for Python, Node or Go in a Gitlab CI job.
 
 ## Usage
 
