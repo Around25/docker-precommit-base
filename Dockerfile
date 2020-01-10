@@ -1,14 +1,15 @@
 FROM python:3.7.3-stretch
 
+RUN curl -sL https://deb.nodesource.com/setup_13.x | bash -
 RUN apt-get update && apt-get install -y \
       build-essential \
       curl \
       git \
       libxml2-dev \
       libxslt1-dev \
-      nodejs \
       ruby \
       ruby-dev \
+      nodejs \
       unzip \
       xz-utils \
       zlib1g-dev && \
