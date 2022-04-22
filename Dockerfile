@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y \
     rm -rf /var/lib/apt
 
 ENV GOLANG_VERSION 1.16
-ENV PRECOMMIT_VERSION 1.21.0
+ENV PRECOMMIT_VERSION 2.18.1
 
 RUN curl -sSL https://storage.googleapis.com/golang/go$GOLANG_VERSION.linux-amd64.tar.gz \
 		| tar -v -C /usr/local -xz
